@@ -8,45 +8,46 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #111;
-      color: #fff;
+      background-color: #f2f2f2;
+      color: #222;
     }
     header {
-      background-color: #000;
+      background-color: #003344;
       padding: 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
       font-size: 2.5em;
-      color: #00ffcc;
+      color: #ffffff;
     }
     nav {
       display: flex;
       justify-content: center;
       gap: 30px;
       margin-top: 10px;
+      flex-wrap: wrap;
     }
     nav a {
-      color: #ccc;
+      color: #ccfaff;
       text-decoration: none;
       font-weight: bold;
     }
     nav a:hover {
-      color: #00ffcc;
+      color: #00aabb;
     }
     section {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 40px auto;
       padding: 0 20px;
     }
     h2 {
-      color: #00ffcc;
+      color: #005566;
       margin-bottom: 10px;
     }
     footer {
-      background-color: #000;
-      color: #888;
+      background-color: #003344;
+      color: #eee;
       text-align: center;
       padding: 20px;
       margin-top: 60px;
@@ -56,21 +57,21 @@
       padding: 10px;
       margin-top: 10px;
       border-radius: 5px;
-      border: none;
+      border: 1px solid #ccc;
       font-size: 1em;
     }
     button {
-      background-color: #00ffcc;
-      color: #000;
+      background-color: #007788;
+      color: #fff;
       cursor: pointer;
       font-weight: bold;
     }
     button:hover {
-      background-color: #00ddbb;
+      background-color: #0099aa;
     }
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 20px;
       margin-top: 20px;
     }
@@ -78,6 +79,7 @@
       width: 100%;
       border-radius: 10px;
       object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
   </style>
 </head>
@@ -102,7 +104,7 @@
   <section id="services">
     <h2>Послуги</h2>
     <ul>
-            <li>3D-друк із PLA, PETG, TPU та інших матеріалів</li>
+      <li>3D-друк із PLA, PETG, TPU та інших матеріалів</li>
       <li>Прототипування, кастомні вироби, тиражування</li>
     </ul>
   </section>
@@ -120,9 +122,10 @@
   <section id="gallery">
     <h2>Галерея</h2>
     <div class="gallery">
-      <img src="https://via.placeholder.com/300x200?text=Продукт+1" alt="Продукт 1">
-      <img src="https://via.placeholder.com/300x200?text=Продукт+2" alt="Продукт 2">
-      <img src="https://via.placeholder.com/300x200?text=Продукт+3" alt="Продукт 3">
+      <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe" alt="3D-друк приклад 1">
+      <img src="https://images.unsplash.com/photo-1601980978273-2a5e0c93fd63" alt="3D-друк приклад 2">
+      <img src="https://images.unsplash.com/photo-1624759231452-f57962b9eb6f" alt="3D-друк приклад 3">
+      <img src="https://images.unsplash.com/photo-1608500211835-45bcaecbce6a" alt="3D-друк приклад 4">
     </div>
   </section>
 
@@ -139,8 +142,8 @@
   <section id="contact">
     <h2>Контакти</h2>
     <p>Зв’яжіться з нами:</p>
-    <p>Email: <a href="mailto:info@nymex3d.com" style="color:#00ffcc;">info@nymex3d.com</a></p>
-    <p>Instagram: <a href="https://instagram.com/nymex3d" target="_blank" style="color:#00ffcc;">@nymex3d</a></p>
+    <p>Email: <a href="mailto:info@nymex3d.com" style="color:#007788;">info@nymex3d.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/nymex3d" target="_blank" style="color:#007788;">@nymex3d</a></p>
   </section>
 
   <footer>
